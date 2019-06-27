@@ -1,0 +1,11 @@
+Area,Cancer Type,Year,Sex,Age Adjusted Rate,Case Count,Population
+United States,Female Breast,2016,Male and Female,124.2,245299,164162118
+United States,Prostate,2016,Male and Female,101.4,192443,159243817
+United States,Lung and Bronchus,2016,Male and Female,56.0,218229,323405935
+United States,Colon and Rectum,2016,Male and Female,37.4,141270,323405935
+United States,Corpus and Uterus NOS,2016,Male and Female,27.3,56808,164162118
+United States,Melanomas of the Skin,2016,Male and Female,22.3,82476,323405935
+United States,Urinary Bladder,2016,Male and Female,19.2,73469,323405935
+United States,Non-Hodgkin Lymphoma,2016,Male and Female,18.3,68403,323405935
+United States,Kidney and Renal Pelvis,2016,Male and Female,16.8,63639,323405935
+United States,Thyroid,2016,Male and Female,14.0,47755,323405935

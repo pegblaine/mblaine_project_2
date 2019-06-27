@@ -1,0 +1,11 @@
+Area,Cancer Type,Year,Sex,Age Adjusted Rate,AL Death Count,Population
+Alabama,Lung and Bronchus,2016,Male and Female,49.1,3009,4860545
+Alabama,Prostate,2016,Male and Female,21.5,512,2354189
+Alabama,Female Breast,2016,Male and Female,21.1,678,2506356
+Alabama,Colon and Rectum,2016,Male and Female,14.7,871,4860545
+Alabama,Pancreas,2016,Male and Female,12.0,724,4860545
+Alabama,Liver and Intrahepatic Bile Duct,2016,Male and Female,7.4,464,4860545
+Alabama,Ovary,2016,Male and Female,7.3,244,2506356
+Alabama,Leukemias,2016,Male and Female,6.6,376,4860545
+Alabama,Brain and Other Nervous System,2016,Male and Female,5.4,311,4860545
+Alabama,Non-Hodgkin Lymphoma,2016,Male and Female,5.2,303,4860545

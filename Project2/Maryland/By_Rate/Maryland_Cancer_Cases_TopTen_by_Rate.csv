@@ -1,0 +1,11 @@
+Area,CancerType,Year,Sex,AgeAdjustedRate,CaseCount,Population
+Maryland,Female Breast,2016,Male and Female,128.6,4815,3104357
+Maryland,Prostate,2016,Male and Female,120.9,4149,2920395
+Maryland,Lung and Bronchus,2016,Male and Female,53.8,3802,6024752
+Maryland,Colon and Rectum,2016,Male and Female,35.3,2446,6024752
+Maryland,Corpus and Uterus NOS,2016,Male and Female,27.6,1093,3104357
+Maryland,Melanomas of the Skin,2016,Male and Female,24.1,1648,6024752
+Maryland,Non-Hodgkin Lymphoma,2016,Male and Female,18,1232,6024752
+Maryland,Urinary Bladder,2016,Male and Female,17.9,1238,6024752
+Maryland,Kidney and Renal Pelvis,2016,Male and Female,15.7,1093,6024752
+Maryland,Thyroid,2016,Male and Female,13.7,882,6024752

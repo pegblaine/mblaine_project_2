@@ -1,0 +1,11 @@
+Area,Cancer Type,Year,Sex,Age Adjusted Rate,US Death Count,Population
+United States,Lung and Bronchus,2016,Male and Female,38.5,148869,323405935
+United States,Female Breast,2016,Male and Female,20.0,41487,164162118
+United States,Prostate,2016,Male and Female,19.4,30370,159243817
+United States,Colon and Rectum,2016,Male and Female,13.7,52286,323405935
+United States,Pancreas,2016,Male and Female,11.0,42757,323405935
+United States,Ovary,2016,Male and Female,6.8,14223,164162118
+United States,Liver and Intrahepatic Bile Duct,2016,Male and Female,6.7,26569,323405935
+United States,Leukemias,2016,Male and Female,6.3,23287,323405935
+United States,Non-Hodgkin Lymphoma,2016,Male and Female,5.4,20268,323405935
+United States,Corpus and Uterus NOS,2016,Male and Female,5.0,10733,164162118

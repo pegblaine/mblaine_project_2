@@ -1,0 +1,52 @@
+Area,CancerType,Year,Sex,AgeAdjustedRate,DeathCount,Population
+California,Lung and Bronchus,2016,Male and Female,27.9,11739,39296476
+Florida,Lung and Bronchus,2016,Male and Female,36.4,11217,20656589
+Texas,Lung and Bronchus,2016,Male and Female,34.3,9193,27904862
+New York,Lung and Bronchus,2016,Male and Female,33.4,8135,19836286
+Pennsylvania,Lung and Bronchus,2016,Male and Female,41.0,7173,12787085
+Ohio,Lung and Bronchus,2016,Male and Female,47.8,7105,11622554
+Illinois,Lung and Bronchus,2016,Male and Female,41.5,6242,12835726
+North Carolina,Lung and Bronchus,2016,Male and Female,45.3,5573,10156689
+Michigan,Lung and Bronchus,2016,Male and Female,43.5,5528,9933445
+Georgia,Lung and Bronchus,2016,Male and Female,40.7,4400,10313620
+Tennessee,Lung and Bronchus,2016,Male and Female,53.3,4337,6649404
+Indiana,Lung and Bronchus,2016,Male and Female,49.2,3861,6634007
+Virginia,Lung and Bronchus,2016,Male and Female,38.6,3759,8414380
+Missouri,Lung and Bronchus,2016,Male and Female,48.0,3706,6091176
+New Jersey,Lung and Bronchus,2016,Male and Female,33.7,3703,8978416
+Kentucky,Lung and Bronchus,2016,Male and Female,61.2,3328,4436113
+Massachusetts,Lung and Bronchus,2016,Male and Female,37.4,3169,6823721
+Alabama,Lung and Bronchus,2016,Male and Female,49.1,3009,4860545
+Washington,Lung and Bronchus,2016,Male and Female,35.3,2911,7280934
+Wisconsin,Lung and Bronchus,2016,Male and Female,38.1,2788,5772917
+South Carolina,Lung and Bronchus,2016,Male and Female,42.5,2704,4959822
+Arizona,Lung and Bronchus,2016,Male and Female,30.8,2702,6908642
+Maryland,Lung and Bronchus,2016,Male and Female,37.7,2639,6024752
+Louisiana,Lung and Bronchus,2016,Male and Female,46.3,2494,4686157
+Minnesota,Lung and Bronchus,2016,Male and Female,35.2,2329,5525050
+Oklahoma,Lung and Bronchus,2016,Male and Female,49.7,2300,3921207
+Arkansas,Lung and Bronchus,2016,Male and Female,53.1,2006,2988231
+Mississippi,Lung and Bronchus,2016,Male and Female,53.9,1903,2985415
+Oregon,Lung and Bronchus,2016,Male and Female,36.5,1891,4085989
+Iowa,Lung and Bronchus,2016,Male and Female,41.6,1668,3130869
+Colorado,Lung and Bronchus,2016,Male and Female,27.9,1590,5530105
+Connecticut,Lung and Bronchus,2016,Male and Female,33.6,1572,3587685
+West Virginia,Lung and Bronchus,2016,Male and Female,53.1,1392,1828637
+Kansas,Lung and Bronchus,2016,Male and Female,39.2,1364,2907731
+Nevada,Lung and Bronchus,2016,Male and Female,38.3,1267,2939254
+Maine,Lung and Bronchus,2016,Male and Female,46.5,914,1330232
+Nebraska,Lung and Bronchus,2016,Male and Female,37.6,856,1907603
+New Hampshire,Lung and Bronchus,2016,Male and Female,44.9,798,1335015
+New Mexico,Lung and Bronchus,2016,Male and Female,27.2,701,2085432
+Idaho,Lung and Bronchus,2016,Male and Female,30.9,579,1680026
+Rhode Island,Lung and Bronchus,2016,Male and Female,41.6,570,1057566
+Delaware,Lung and Bronchus,2016,Male and Female,44.0,556,952698
+Hawaii,Lung and Bronchus,2016,Male and Female,29.0,543,1428683
+Montana,Lung and Bronchus,2016,Male and Female,34.4,477,1038656
+Utah,Lung and Bronchus,2016,Male and Female,18.4,468,3044321
+South Dakota,Lung and Bronchus,2016,Male and Female,39.4,420,861542
+Vermont,Lung and Bronchus,2016,Male and Female,41.6,366,623354
+North Dakota,Lung and Bronchus,2016,Male and Female,34.6,304,755548
+Alaska,Lung and Bronchus,2016,Male and Female,38.6,230,741522
+Wyoming,Lung and Bronchus,2016,Male and Female,30.3,204,584910
+District of Columbia,Lung and Bronchus,2016,Male and Female,27.7,186,684336

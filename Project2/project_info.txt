@@ -1,0 +1,27 @@
+6/12/19
+
+Project 1
+
+US cancer: new cases (incidence) or deaths (mortality)
+
+For all types of cancer 
+Data from 2016 (latest available incidence data)
+Includes Males and Females
+
+Leading cancer cases and deaths
+In 2016, the latest year for which incidence data are available, 1,658,716 new cases of cancer were reported, 
+and 598,031 people died of cancer in the United States. 
+For every 100,000 people, 436 new cancer cases were reported and 156 died of cancer. 
+
+Cancer is the second leading cause of death in the United States, exceeded only by heart disease. 
+One of every four deaths in the United States is due to cancer.
+
+
+------------------------------------------
+Maryland
+
+
+Use Maryland cancer data from 2016 (latest available incidence data)
+Includes Males and Females
+
+

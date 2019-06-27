@@ -1,0 +1,760 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20191.19.0417.1429                               -->
+<workbook original-version='18.1' source-build='2019.1.3 (20191.19.0417.1429)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='MD_by_County_Cancer_Deaths_Rate_and_Number' inline='true' name='federated.131hx4q0y4z3ju19e9jlp1tcc13g' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='MD_by_County_Cancer_Deaths_Rate_and_Number' name='textscan.07goth404iragd15o3cu20q5bnpn'>
+            <connection class='textscan' directory='C:/Users/GBTC406003ur/Documents/mblaine/Project1/Maryland/By_Number' filename='MD_by_County_Cancer_Deaths_Rate_and_Number.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.07goth404iragd15o3cu20q5bnpn' name='MD_by_County_Cancer_Deaths_Rate_and_Number.csv' table='[MD_by_County_Cancer_Deaths_Rate_and_Number#csv]' type='table'>
+          <columns character-set='windows-1252' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='County' ordinal='0' />
+            <column datatype='integer' name='FIPS' ordinal='1' />
+            <column datatype='real' name='Age-Adjusted Death Rate(†) - deaths per 100,000' ordinal='2' />
+            <column datatype='integer' name='Average Annual Count' ordinal='3' />
+            <column datatype='real' name='Recent 5-Year Trend (‡) in Death Rates' ordinal='4' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[MD_by_County_Cancer_Deaths_Rate_and_Number.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;windows-1252&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>County</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[County]</local-name>
+            <parent-name>[MD_by_County_Cancer_Deaths_Rate_and_Number.csv]</parent-name>
+            <remote-alias>County</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>FIPS</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[FIPS]</local-name>
+            <parent-name>[MD_by_County_Cancer_Deaths_Rate_and_Number.csv]</parent-name>
+            <remote-alias>FIPS</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Age-Adjusted Death Rate(†) - deaths per 100,000</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Age-Adjusted Death Rate(†) - deaths per 100,000]</local-name>
+            <parent-name>[MD_by_County_Cancer_Deaths_Rate_and_Number.csv]</parent-name>
+            <remote-alias>Age-Adjusted Death Rate(†) - deaths per 100,000</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Average Annual Count</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Average Annual Count]</local-name>
+            <parent-name>[MD_by_County_Cancer_Deaths_Rate_and_Number.csv]</parent-name>
+            <remote-alias>Average Annual Count</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Recent 5-Year Trend (‡) in Death Rates</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Recent 5-Year Trend (‡) in Death Rates]</local-name>
+            <parent-name>[MD_by_County_Cancer_Deaths_Rate_and_Number.csv]</parent-name>
+            <remote-alias>Recent 5-Year Trend (‡) in Death Rates</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[County]' role='dimension' semantic-role='[County].[Name]' type='nominal' />
+      <column caption='Fips' datatype='integer' name='[FIPS]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <layout dim-ordering='alphabetic' dim-percentage='0.420655' measure-ordering='alphabetic' measure-percentage='0.579345' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='MD Counties Bar Graph'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>MD Counties: &#10;Age-Adjusted Death Rate and Avg Annual # of Deaths</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='MD_by_County_Cancer_Deaths_Rate_and_Number' name='federated.131hx4q0y4z3ju19e9jlp1tcc13g' />
+          </datasources>
+          <datasource-dependencies datasource='federated.131hx4q0y4z3ju19e9jlp1tcc13g'>
+            <column datatype='real' name='[Age-Adjusted Death Rate(†) - deaths per 100,000]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Average Annual Count]' role='measure' type='quantitative' />
+            <column datatype='string' name='[County]' role='dimension' semantic-role='[County].[Name]' type='nominal' />
+            <column-instance column='[County]' derivation='None' name='[none:County:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Age-Adjusted Death Rate(†) - deaths per 100,000]' derivation='Sum' name='[sum:Age-Adjusted Death Rate(†) - deaths per 100,000:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Average Annual Count]' derivation='Sum' name='[sum:Average Annual Count:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.131hx4q0y4z3ju19e9jlp1tcc13g].[none:County:nk]'>
+            <groupfilter function='union' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter from='&quot;Allegany County&quot;' function='range' level='[none:County:nk]' to='&quot;Charles County&quot;' />
+              <groupfilter from='&quot;Dorchester County&quot;' function='range' level='[none:County:nk]' to='&quot;Howard County&quot;' />
+              <groupfilter function='member' level='[none:County:nk]' member='&quot;Kent County&quot;' />
+              <groupfilter function='member' level='[none:County:nk]' member='&quot;Montgomery County&quot;' />
+              <groupfilter from='&quot;Prince Georges County&quot;' function='range' level='[none:County:nk]' to='&quot;Worcester County&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.131hx4q0y4z3ju19e9jlp1tcc13g].[none:County:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;Baltimore City&quot;</bucket>
+              <bucket>&quot;Wicomico County&quot;</bucket>
+              <bucket>&quot;Somerset County&quot;</bucket>
+              <bucket>&quot;Dorchester County&quot;</bucket>
+              <bucket>&quot;Cecil County&quot;</bucket>
+              <bucket>&quot;St. Marys County&quot;</bucket>
+              <bucket>&quot;Caroline County&quot;</bucket>
+              <bucket>&quot;Worcester County&quot;</bucket>
+              <bucket>&quot;Charles County&quot;</bucket>
+              <bucket>&quot;Washington County&quot;</bucket>
+              <bucket>&quot;Anne Arundel County&quot;</bucket>
+              <bucket>&quot;Allegany County&quot;</bucket>
+              <bucket>&quot;Queen Annes County&quot;</bucket>
+              <bucket>&quot;Harford County&quot;</bucket>
+              <bucket>&quot;Calvert County&quot;</bucket>
+              <bucket>&quot;Prince Georges County&quot;</bucket>
+              <bucket>&quot;Baltimore County&quot;</bucket>
+              <bucket>&quot;Carroll County&quot;</bucket>
+              <bucket>&quot;Kent County&quot;</bucket>
+              <bucket>&quot;Frederick County&quot;</bucket>
+              <bucket>&quot;Talbot County&quot;</bucket>
+              <bucket>&quot;Garrett County&quot;</bucket>
+              <bucket>&quot;Howard County&quot;</bucket>
+              <bucket>&quot;Montgomery County&quot;</bucket>
+              <bucket>%all%</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.131hx4q0y4z3ju19e9jlp1tcc13g].[none:County:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='font-weight' data-class='subtotal' value='bold' />
+            <format attr='color' field='[federated.131hx4q0y4z3ju19e9jlp1tcc13g].[sum:Age-Adjusted Death Rate(†) - deaths per 100,000:qk]' value='#aa0000' />
+            <format attr='color' value='#aa0000' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='background-color' data-class='total' scope='cols' value='#00000000' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-orientation' field='[federated.131hx4q0y4z3ju19e9jlp1tcc13g].[none:County:nk]' value='-90' />
+            <format attr='color' field='[federated.131hx4q0y4z3ju19e9jlp1tcc13g].[sum:Age-Adjusted Death Rate(†) - deaths per 100,000:qk]' value='#aa0000' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <text column='[federated.131hx4q0y4z3ju19e9jlp1tcc13g].[sum:Age-Adjusted Death Rate(†) - deaths per 100,000:qk]' />
+              <text column='[federated.131hx4q0y4z3ju19e9jlp1tcc13g].[sum:Average Annual Count:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run fontcolor='#59a14f'>&lt;[federated.131hx4q0y4z3ju19e9jlp1tcc13g].[sum:Average Annual Count:qk]&gt;</run>
+                <run>&#10;&lt;[federated.131hx4q0y4z3ju19e9jlp1tcc13g].[sum:Age-Adjusted Death Rate(†) - deaths per 100,000:qk]&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.131hx4q0y4z3ju19e9jlp1tcc13g].[sum:Age-Adjusted Death Rate(†) - deaths per 100,000:qk]</rows>
+        <cols>[federated.131hx4q0y4z3ju19e9jlp1tcc13g].[none:County:nk]</cols>
+      </table>
+      <simple-id uuid='{259CBB9C-C292-4BC3-8E7B-8EC53F742A91}' />
+    </worksheet>
+    <worksheet name='MD Counties Line Graph'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>MD Counties: &#10;Age-Adjusted Death Rate and Avg Annual # of Deaths</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='MD_by_County_Cancer_Deaths_Rate_and_Number' name='federated.131hx4q0y4z3ju19e9jlp1tcc13g' />
+          </datasources>
+          <datasource-dependencies datasource='federated.131hx4q0y4z3ju19e9jlp1tcc13g'>
+            <column datatype='real' name='[Age-Adjusted Death Rate(†) - deaths per 100,000]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Average Annual Count]' role='measure' type='quantitative' />
+            <column datatype='string' name='[County]' role='dimension' semantic-role='[County].[Name]' type='nominal' />
+            <column-instance column='[County]' derivation='None' name='[none:County:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Age-Adjusted Death Rate(†) - deaths per 100,000]' derivation='Sum' name='[sum:Age-Adjusted Death Rate(†) - deaths per 100,000:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Average Annual Count]' derivation='Sum' name='[sum:Average Annual Count:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.131hx4q0y4z3ju19e9jlp1tcc13g].[none:County:nk]'>
+            <groupfilter function='union' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter from='&quot;Allegany County&quot;' function='range' level='[none:County:nk]' to='&quot;Charles County&quot;' />
+              <groupfilter from='&quot;Dorchester County&quot;' function='range' level='[none:County:nk]' to='&quot;Howard County&quot;' />
+              <groupfilter function='member' level='[none:County:nk]' member='&quot;Kent County&quot;' />
+              <groupfilter function='member' level='[none:County:nk]' member='&quot;Montgomery County&quot;' />
+              <groupfilter from='&quot;Prince Georges County&quot;' function='range' level='[none:County:nk]' to='&quot;Worcester County&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.131hx4q0y4z3ju19e9jlp1tcc13g].[none:County:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;Baltimore City&quot;</bucket>
+              <bucket>&quot;Wicomico County&quot;</bucket>
+              <bucket>&quot;Somerset County&quot;</bucket>
+              <bucket>&quot;Dorchester County&quot;</bucket>
+              <bucket>&quot;Cecil County&quot;</bucket>
+              <bucket>&quot;St. Marys County&quot;</bucket>
+              <bucket>&quot;Caroline County&quot;</bucket>
+              <bucket>&quot;Worcester County&quot;</bucket>
+              <bucket>&quot;Charles County&quot;</bucket>
+              <bucket>&quot;Washington County&quot;</bucket>
+              <bucket>&quot;Anne Arundel County&quot;</bucket>
+              <bucket>&quot;Allegany County&quot;</bucket>
+              <bucket>&quot;Queen Annes County&quot;</bucket>
+              <bucket>&quot;Harford County&quot;</bucket>
+              <bucket>&quot;Calvert County&quot;</bucket>
+              <bucket>&quot;Prince Georges County&quot;</bucket>
+              <bucket>&quot;Baltimore County&quot;</bucket>
+              <bucket>&quot;Carroll County&quot;</bucket>
+              <bucket>&quot;Kent County&quot;</bucket>
+              <bucket>&quot;Frederick County&quot;</bucket>
+              <bucket>&quot;Talbot County&quot;</bucket>
+              <bucket>&quot;Garrett County&quot;</bucket>
+              <bucket>&quot;Howard County&quot;</bucket>
+              <bucket>&quot;Montgomery County&quot;</bucket>
+              <bucket>%all%</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.131hx4q0y4z3ju19e9jlp1tcc13g].[none:County:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='font-weight' data-class='subtotal' value='bold' />
+            <format attr='color' field='[federated.131hx4q0y4z3ju19e9jlp1tcc13g].[sum:Age-Adjusted Death Rate(†) - deaths per 100,000:qk]' value='#aa0000' />
+            <format attr='text-format' field='[federated.131hx4q0y4z3ju19e9jlp1tcc13g].[sum:Age-Adjusted Death Rate(†) - deaths per 100,000:qk]' value='N' />
+            <format attr='color' field='[federated.131hx4q0y4z3ju19e9jlp1tcc13g].[sum:Average Annual Count:qk]' value='#59a14f' />
+            <format attr='color' value='#aa0000' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='background-color' data-class='total' scope='cols' value='#00000000' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-orientation' field='[federated.131hx4q0y4z3ju19e9jlp1tcc13g].[none:County:nk]' value='-90' />
+            <format attr='color' field='[federated.131hx4q0y4z3ju19e9jlp1tcc13g].[sum:Age-Adjusted Death Rate(†) - deaths per 100,000:qk]' value='#aa0000' />
+          </style-rule>
+          <style-rule element='axis-title'>
+            <format attr='color' field='[federated.131hx4q0y4z3ju19e9jlp1tcc13g].[sum:Age-Adjusted Death Rate(†) - deaths per 100,000:qk]' value='#aa0000' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <encodings>
+              <text column='[federated.131hx4q0y4z3ju19e9jlp1tcc13g].[sum:Age-Adjusted Death Rate(†) - deaths per 100,000:qk]' />
+              <text column='[federated.131hx4q0y4z3ju19e9jlp1tcc13g].[sum:Average Annual Count:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run fontcolor='#59a14f'>&lt;[federated.131hx4q0y4z3ju19e9jlp1tcc13g].[sum:Average Annual Count:qk]&gt;</run>
+                <run>&#10;&lt;[federated.131hx4q0y4z3ju19e9jlp1tcc13g].[sum:Age-Adjusted Death Rate(†) - deaths per 100,000:qk]&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.131hx4q0y4z3ju19e9jlp1tcc13g].[sum:Age-Adjusted Death Rate(†) - deaths per 100,000:qk]</rows>
+        <cols>[federated.131hx4q0y4z3ju19e9jlp1tcc13g].[none:County:nk]</cols>
+      </table>
+      <simple-id uuid='{1D58BF91-49C9-4DFB-A72C-4AEFCCFD5C12}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='MD Counties Bar Graph'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.131hx4q0y4z3ju19e9jlp1tcc13g].[:Measure Names]</field>
+            <field>[federated.131hx4q0y4z3ju19e9jlp1tcc13g].[none:County:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{CF432E59-3178-47E4-B045-6EAABFD0C8FC}' />
+    </window>
+    <window class='worksheet' name='MD Counties Line Graph'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.131hx4q0y4z3ju19e9jlp1tcc13g].[:Measure Names]</field>
+            <field>[federated.131hx4q0y4z3ju19e9jlp1tcc13g].[none:County:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{7B119B9C-1E96-4644-A2D2-90B75505C176}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='MD Counties Bar Graph' width='192'>
+      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
+      GYZeC9sH/j8tK1dZCllqeAAAAABJRU5ErkJggg==
+    </thumbnail>
+    <thumbnail height='192' name='MD Counties Line Graph' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>

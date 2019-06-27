@@ -1,0 +1,11 @@
+Area,Cancer Type,Year,Sex,Age Adjusted Rate,AR Death Count,Population
+Arizona,Lung and Bronchus,2016,Male and Female,30.8,2702,6908642
+Arizona,Female Breast,2016,Male and Female,19.2,850,3474384
+Arizona,Prostate,2016,Male and Female,18.4,702,3434258
+Arizona,Colon and Rectum,2016,Male and Female,12.4,1055,6908642
+Arizona,Pancreas,2016,Male and Female,10.5,908,6908642
+Arizona,Ovary,2016,Male and Female,7.0,312,3474384
+Arizona,Liver and Intrahepatic Bile Duct,2016,Male and Female,6.3,555,6908642
+Arizona,Leukemias,2016,Male and Female,5.8,482,6908642
+Arizona,Non-Hodgkin Lymphoma,2016,Male and Female,4.8,400,6908642
+Arizona,Urinary Bladder,2016,Male and Female,4.3,368,6908642
